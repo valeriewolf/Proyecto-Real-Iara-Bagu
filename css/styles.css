@@ -1,5 +1,8 @@
 /*IMPORTS */
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;300&display=swap");
+=======
+>>>>>>> 054f9a868b4334006a5315b48903ea7d7c6abfac
 /*Resets*/
 html {
   min-height: 100%;
@@ -8,6 +11,7 @@ html {
 body {
   height: 100%; }
 
+<<<<<<< HEAD
 /*Styles*/
 a {
   text-decoration: none; }
@@ -23,6 +27,12 @@ a {
   height: 500px;
   background: #020024;
   background: radial-gradient(circle, #020024 0%, #096f79 0%, #00d4ff 100%); }
+=======
+/*PARTIALS*/
+.gradient-div {
+  height: 500px;
+  background-color: blue; }
+>>>>>>> 054f9a868b4334006a5315b48903ea7d7c6abfac
 
 /*Navbar*/
 .topheader {
@@ -30,7 +40,11 @@ a {
   width: 100%; }
 
 .topnav {
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color: #9a9acf;
+>>>>>>> 054f9a868b4334006a5315b48903ea7d7c6abfac
   display: flex;
   padding: 10px;
   max-width: 980px;
@@ -53,6 +67,10 @@ a {
 /* Menu */
 .menu {
   display: flex;
+<<<<<<< HEAD
+=======
+  list-style: none;
+>>>>>>> 054f9a868b4334006a5315b48903ea7d7c6abfac
   margin: 0;
   padding: 0;
   height: 50%;
@@ -74,9 +92,13 @@ a {
 
 .logotype {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   color: black;
   font-family: Montserrat; }
+=======
+  justify-content: center; }
+>>>>>>> 054f9a868b4334006a5315b48903ea7d7c6abfac
 
 #footer {
   height: 100px;

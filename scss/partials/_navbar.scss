@@ -5,7 +5,11 @@
   }
   
   .topnav {
+<<<<<<< HEAD
     background-color: rgb(255, 255, 255);
+=======
+    background-color: rgb(154, 154, 207);
+>>>>>>> 054f9a868b4334006a5315b48903ea7d7c6abfac
     display: flex;
     padding: 10px;
     max-width: 980px;
@@ -33,6 +37,10 @@
   /* Menu */
   .menu {
     display: flex;
+<<<<<<< HEAD
+=======
+    list-style: none;
+>>>>>>> 054f9a868b4334006a5315b48903ea7d7c6abfac
     margin: 0;
     padding: 0;
     height: 50%;
@@ -58,8 +66,11 @@
   .logotype {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
     font-family: Montserrat;
+=======
+>>>>>>> 054f9a868b4334006a5315b48903ea7d7c6abfac
   }
   
   
