@@ -22,4 +22,14 @@ SCRIPTS:
 SCRIPT PARA SASS
   npm run build-css
   npm run watch-css
+
+23/1/2022 - Valeria
+
+Aprendiendo a leer códigos para trabajar sobre ellos. Caos con GitHub que no me sube el 
+proyecto de manera correcta. Muchos errores. Espero videollamada.
+
+Errores:
+
+warning: LF will be replaced by CRLF in css/styles.css.
+The file will have its original line endings in your working directory
   
