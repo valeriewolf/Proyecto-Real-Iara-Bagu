@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;300&display=swap');
+
+/*Resets*/
+html {
+	min-height: 100%;
+	overflow-y: scroll;
+}
+
+body {
+	height: 100%;
+	
+}
+
+/*Styles*/
+
+a{
+	text-decoration: none;
+}
+
+.text{
+    display: flex;
+	font-family: poppins;
+	justify-content: center;
+	color: black;
+}
+

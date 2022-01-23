@@ -1,0 +1,18 @@
+/*IMPORTS */
+@import "./globals";
+
+/*PARTIALS*/
+@import "./partials/color-gradient" ;
+@import "./partials/navbar";
+@import "./partials/footer";
+@import "./partials/whatsapp";
+
+/*PAGES*/
+@import "./pages/sobre-mi";
+@import "./pages/proyectos";
+@import "./pages/servicios";
+@import "./pages/clientes";
+@import "./pages/contacto";
+
+/*MEDIA QUERYS*/
+@import "./mediaq/mediaq";

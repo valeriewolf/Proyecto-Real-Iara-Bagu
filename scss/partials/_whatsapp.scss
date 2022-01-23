@@ -1,0 +1,34 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#278349;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.wpp-float{
+	margin-top:16px;
+}
+
+
+.float2{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:120px;
+	background-color:black;
+	color:#FFF;
+	border-radius:50px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.back-float{
+	margin-top:16px;
+}

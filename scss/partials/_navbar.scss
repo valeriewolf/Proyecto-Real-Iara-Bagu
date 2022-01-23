@@ -1,0 +1,65 @@
+/*Navbar*/
+.topheader {
+    box-shadow: 0 4px 5px;
+    width: 100%;
+  }
+  
+  .topnav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  /* Logo */
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    
+  }
+  
+  .logo img {
+    border-radius: 50%;
+  }
+  
+  /* Menu */
+  .menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    z-index: 2;
+    position: relative;
+  }
+  .menu li {
+    padding: 0 15px;
+  }
+  
+  .menu a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+   
+  }
+  .open-menu,
+  .close-menu {
+    display: none;
+  }
+  
+  .logotype {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+  }
+  
+  

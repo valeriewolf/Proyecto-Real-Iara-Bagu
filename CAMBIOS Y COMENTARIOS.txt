@@ -1,0 +1,25 @@
+22/1/2022 - Juani
+Bueno, primer dia.
+
+COSAS HECHAS:
+
+.gitignore ahora ignora node_modules
+Estan armadados los scripts de nodemon (Dejo aca abajo por si las dudas)
+Las carpetas de SASS estan armadas
+Agregue todas las secciones de la pagina (Estan en colores para diferenciarlas)
+Medio hice el Navbar (Le falta trabajo)
+Los botones de whatsapp y volver arriba estan fijados, falta agregarles las imagenes
+Todos los links de la navbar llevan a su lugar correspondiente
+
+FALTA: 
+
+Agregar los gradients, pero hay que hablar con las chicas
+Cambiar los iconos del menu y discutir si esta bien asi
+Cambiar ICO del sitio, que tambien me lo tienen que pasar las chicas
+Completar con el texto base cada seccion
+
+SCRIPTS:
+SCRIPT PARA SASS
+  npm run build-css
+  npm run watch-css
+  
