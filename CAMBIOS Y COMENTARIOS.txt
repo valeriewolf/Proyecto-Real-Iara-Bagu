@@ -32,4 +32,19 @@ Errores:
 
 warning: LF will be replaced by CRLF in css/styles.css.
 The file will have its original line endings in your working directory
+
+Pude subirlo, creo que ahi se subio sin errores. 
+
+Hice pequeños cambios como te comente porque me tomo tiempo entender bien para trabajar sobre
+el codigo.
+
+CAMBIOS:
+
+Fuentes: Me fijé en Figma las fuentes que utilizaron las chicas para el logo y para los
+textos.
+
+Gradiente: Solo hice una prueba con uno al azar para ver como quedaría (consultar a chicas el
+exacto)
+
+Quité el subrayado de los links.
   
