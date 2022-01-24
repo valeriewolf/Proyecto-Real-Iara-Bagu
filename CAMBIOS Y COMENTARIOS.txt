@@ -48,6 +48,17 @@ exacto)
 
 Quité el subrayado de los links.
   
-23-1 LLAMADA ZOOM
+24/1/2022 - Juani
 
-HOLA HOLA TEST
+Cambios: Agregue la seccion "Sobre mi" y el footer, agregue copyright debajo de todo, si queres cambia tu dev jaja
+
+Errores: La imagen de Iara en "Sobre mi" se rompe en resolucion de tablet 700px aprox, y tengo que dar vuelta el texto y la imagen, para que quede texto a la izquierda e imagen a la derecha, o no, lo hablamos con las chicas. Encontre el error de la Navbar, es un problema de los mediaqueries, ya lo tengo casi visto
+
+Agregue: Agrege una pagina entera de CSS para normalizar algunos parametros de la pagina, si hay algo que no te funciona o se rompe es posible que sea por eso, si por ejemplo haces una tabla y algo te sale mal, busca la parte de "table" (Esto fue un ejemplo no quiere decir que se te vayan a romper las tablas que hagas, si es que haces) en "_normalize-css.scss" esta todo.
+
+Falta agregar: Cambiar botones de back to top y whatsapp, ademas de los links del footer a redes sociales, puse esos de placeholder nada mas.
+
+Comentarios: Creo que eso es todo, cualquier cosa, comentame por whatsapp la linea de codigo y el archivo asi lo puedo verificar
+
+
+

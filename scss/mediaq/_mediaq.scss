@@ -49,6 +49,14 @@
       outline: none;
     }
   }
+
+  @media(max-width: 726px) {
+    #container-mi-mi{
+      margin-right: 1vw;
+      
+    }
+    
+    }
   
   @media (max-width: 881px){ /*MENU CON JS*/
     .menu {
@@ -103,12 +111,6 @@
     
   }
   
-   @media(max-width: 768px) {
-    
-    }
-  
-  
-  
   @media (min-width: 882px){
   .topnav{
       display: flex;
@@ -123,7 +125,8 @@
         
         }
       }
-
+      
+/* EL PROBLEMA DE LA NAVBAR ESTA ACA*/
   @media (min-width: 1152px){
   .topnav{
     display: flex;
