@@ -3,8 +3,8 @@
 /*Resets*/
 html {
 	min-height: 100%;
-	overflow-y: hidden;
-	overflow-x: hidden;
+	overflow-y: scroll;
+	overflow-x: scroll;
 }
 
 body {
@@ -19,7 +19,25 @@ a{
 
 .text{
     display: flex;
-	font-family: poppins;
-	justify-content: center;
+    justify-content: center;
+	font-family: 'poppins', sans-serif;
 	color: black;
+	font-size: 25px;
+padding: 12%;
+}
+
+.text-white{
+	color: rgba(245, 239, 239, 1) ;
+}
+
+.text-blue1{
+	color: rgba(0, 37, 69, 1);
+}
+
+.text-blue2{
+	color: rgba(1, 49, 92, 1);
+}
+
+.semi-bold{
+	font-weight: 600;
 }

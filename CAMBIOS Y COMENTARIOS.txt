@@ -61,4 +61,14 @@ Falta agregar: Cambiar botones de back to top y whatsapp, ademas de los links de
 Comentarios: Creo que eso es todo, cualquier cosa, comentame por whatsapp la linea de codigo y el archivo asi lo puedo verificar
 
 
+25/01/2022 - Valeria
+
+7.23AM Aun quiero seguir avazando pero me tomo un descanso por dolor de espalda.
+
+-Logré centrar el texto agregando un padding.
+-Agregué un script llamado AOS provisorio para probar el efecto similar al que buscan las chicas de que aparezca el contenido a medida que se va metiendo scroll. (solo para probar como queda)
+-Avancé un poquito mas de contenido después del Sobre mi (Aca tengo un inconveniente, cuando le agrego un span a las ultimas tres palabras para añadirle el estilo Semi-bold se me rompe el texto, si podes agregarlo y fijarte si a vos tambien te sucede)
+-Pienso avanzar con los carruseles que son algo complejos luego del descanso , pero voy subiendo los cambios que hice por si me quedo dormida que puedas avanzar con tu parte.
+-Los botones los iban a  subir las chicas al final? No los encontré, no se si busqué bien.
+
 

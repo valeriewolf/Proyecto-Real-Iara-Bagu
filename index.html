@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="shortcut icon" href="/assets/Ícono Iara Bagú.jpg" type="image/x-icon">
+    <!-- Estilos AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>Iara Bagu</title>
 </head>
 <body>
@@ -39,15 +41,15 @@
 <!-- FIN HEADER-->
 
 <!--- ACA VA LA PRIMER SECCION (TUS IDEAS, METAS, ETC.) --->
-<section>
-  <div class="gradient-div">
-  <p class="text">Tus ideas, metas y aspiraciones pueden convertirse en un diseño único que te represente a vos y a tu negocio</p>
-</div>
+<section class="gradient-div" data-aos="fade-up">
+<div  class="text">
+  <p>   Tus ideas, metas y aspiraciones <br> pueden convertirse en un <span class="text-white"> diseño único</span> <br> <span class="text-blue1">que te represente a  <span class="text-blue2 semi-bold"> vos </span> <span class="text-blue1 semi-bold"> y a tu negocio. </span></p>
+</div></span>
 </section>
 <!--- ACA TERMINA LA PRIMER SECCION (TUS IDEAS, METAS, ETC.) --->
 
 <!--ACA VA "SOBRE MI"-->
-<section id="sobre-mi-jump">
+<section id="sobre-mi-jump"  data-aos="fade-up">
 <div id="sobre-mi">
   <div id="container-mi-mi">
     <div class="row">
@@ -70,15 +72,15 @@
 <!--ACA TERMINA "SOBRE MI"-->
 
 <!-- ACA VA SEGUNDO GRADIENT (Construyo interfaces de usuario fluidas, basados en la simplicidad)-->
-<section>
+<section data-aos="fade-up">
   <div class="gradient-div">
-    <p>Construyo interfaces de usuario fluidas, basados en la simplicidad. GRADIENTE</p>
+    <p class="text text-white"> ¨Construyo interfaces de usuario <br> fluidas, basados en la simplicidad, <br> visibilidad y retroalimentación¨. </p>
   </div>
 </section>
 <!-- ACA TERMINA SEGUNDO GRADIENT (Construyo interfaces de usuario fluidas, basados en la simplicidad)-->
 
 <!--ACA VA SECCION DE PROYECTOS (CARROUSEL, SUERTE CON ESTO)-->
-<section id="proyectos-jump">
+<section id="proyectos-jump"  data-aos="fade-up">
 <div id="proyectos-carrousel">
   <p>PROYECTOS Y CARROUSEL</p>
 </div>
@@ -173,8 +175,13 @@
 </div>
 <!--FIN DE FOOTER-->
 
+  <!-- scripts -->
 <script defer src="js/app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>  
 </body>
 </html>
 

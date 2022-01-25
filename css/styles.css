@@ -4,7 +4,7 @@
 html {
   min-height: 100%;
   overflow-y: scroll;
-  overflow-x: hidden; }
+  overflow-x: scroll; }
 
 body {
   height: 100%; }
@@ -15,9 +15,23 @@ a {
 
 .text {
   display: flex;
-  font-family: poppins;
   justify-content: center;
-  color: black; }
+  font-family: 'poppins', sans-serif;
+  color: black;
+  font-size: 25px;
+  padding: 12%; }
+
+.text-white {
+  color: #f5efef; }
+
+.text-blue1 {
+  color: #002545; }
+
+.text-blue2 {
+  color: #01315c; }
+
+.semi-bold {
+  font-weight: 600; }
 
 /*NORMALIZE CSS - RESET CSS, SI ALGO FALLA BORRAR COSAS DE ACA*/
 html {
@@ -197,8 +211,8 @@ th {
 /*PARTIALS*/
 .gradient-div {
   height: 500px;
-  background: #020024;
-  background: radial-gradient(circle, #020024 0%, #096f79 0%, #00d4ff 100%); }
+  background-image: url(../Assets/imagen-degrade.jpg);
+  align-items: center; }
 
 /*Navbar*/
 .topheader {
