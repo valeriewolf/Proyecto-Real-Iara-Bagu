@@ -72,3 +72,8 @@ Comentarios: Creo que eso es todo, cualquier cosa, comentame por whatsapp la lin
 -Los botones los iban a  subir las chicas al final? No los encontré, no se si busqué bien.
 
 
+26/01/2022 - Juani
+
+Agregue: Formulario de contacto
+Falta: Arreglar el gradient para que ocupe el 100% de la pantalla en resoluciones altas
+Comentarios: El formulario no lleva a ningun lado je je je :( . Hay que hablar este tema urgente con las chicas
