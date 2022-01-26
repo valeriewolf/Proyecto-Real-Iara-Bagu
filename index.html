@@ -113,9 +113,37 @@
 
 <!--SECCION CONTACTO-->
 <section id="contacto-jump">
-<div id="contacto">
-  <p>CONTACTO</p>
-</div>
+  <div class="container-form">
+
+    <div class="wrapper">
+  
+      <div class="formulario-contacto">
+        <h2 class="contact-h2">Contacto</h2>
+        <form method="post" action="subscriberform.php" id="submit-form">
+          <p><input id="name" class="form-input" type="text" placeholder="Nombre y Apellido*" required></p>
+          <p><input id="email" class="form-input" type="email" placeholder="Tu Email*" required></p>
+          <p class="full-width"><input id="company-name" class="form-input" type="text" placeholder="Telefono*" required></p>
+          <p class="full-width"><textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Mensaje*" required></textarea></p>
+          <p class="mid-width"><input type="submit" class="submit-btn" value="Enviar">
+            <!--<button class="reset-btn">Reset</button>-->
+          </p>
+        </form>
+      
+      </div>
+  
+      <div class="contacto-wpp contact-wrapper">
+  
+        <ul id="hide-mobile">
+          <span class="hightlight-contact-info">
+            <li class="email-info">Escribime al Whatsapp</li>
+            <br>
+            <a href="https://web.whatsapp.com/" target="blank"><button type="button" class="btn btn-primary btn-lg" id="boton-wpp-contacto">BOTON DE PRUEBA</button></a>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </div>
+
 </section>
 <!--FIN SECCION CONTACTO-->
 

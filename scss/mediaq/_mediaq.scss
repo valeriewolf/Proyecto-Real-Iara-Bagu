@@ -50,9 +50,32 @@
     }
   }
 
+  @media (min-width: 600px) {
+    .contain {
+      padding: 0;
+    }
+  }
+  
+
+  @media (min-width: 700px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .wrapper > * {
+      padding: 2em 2em;
+    }
+  }
+@media (max-width:769px){
+  #hide-mobile{
+    display: none;
+  }
+  
+}
   @media(max-width: 726px) {
     #container-mi-mi{
       margin-right: 1vw;
+      
       
     }
     
