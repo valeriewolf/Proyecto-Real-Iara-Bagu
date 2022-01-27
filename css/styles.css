@@ -35,6 +35,9 @@ a {
 .semi-bold {
   font-weight: 600; }
 
+.boton1 {
+  font-size: 15px; }
+
 /*NORMALIZE CSS - RESET CSS, SI ALGO FALLA BORRAR COSAS DE ACA*/
 html {
   -ms-text-size-adjust: 100%;
