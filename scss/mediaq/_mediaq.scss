@@ -149,6 +149,19 @@
         }
       }
       
+
+      @media (max-width: 911px){
+      .text-diseñador{
+        display: flex;
+      justify-content: center;
+      font-family: 'poppins', sans-serif;
+      color: #EFF4F7;
+      font-size: 40px;
+      padding: 12%; 
+      flex-wrap: wrap;
+    }
+     }
+
 /* EL PROBLEMA DE LA NAVBAR ESTA ACA*/
   @media (min-width: 1152px){
   .topnav{

@@ -77,3 +77,9 @@ Comentarios: Creo que eso es todo, cualquier cosa, comentame por whatsapp la lin
 Agregue: Formulario de contacto
 Falta: Arreglar el gradient para que ocupe el 100% de la pantalla en resoluciones altas
 Comentarios: El formulario no lleva a ningun lado je je je :( . Hay que hablar este tema urgente con las chicas
+
+27/01/2022 - Juani
+Agregue: Seccion "Buscas un diseñador?" y su boton para llevar al contacto (El boton deberia servir para todas las mini-secciones del sitio como la de "Tus ideas, metas y aspiraciones
+..")
+Fix: background-image ahora se ve completa en resoluciones altas
+Comentarios: Nada por hoy, el boton se ve medio raro en resoluciones pequeñas, pero supongo que es por una cuestion de flexbox, despues lo arreglo bien, ahora realmente no se cual es el problema, no es que se ve mal, pero se puede ver mejor
