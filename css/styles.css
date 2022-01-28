@@ -17,11 +17,14 @@ a {
 
 .text {
   display: flex;
-  justify-content: center;
   font-family: 'poppins', sans-serif;
   color: black;
   font-size: 25px;
-  padding: 12%; }
+  padding: 12%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap; }
 
 .text-white {
   color: #f5efef; }
@@ -373,8 +376,9 @@ th {
   margin-left: 1vw; }
 
 .header-sobre-mi {
-  font-weight: 600;
-  font-style: italic; }
+  font-family: 'Comfortaa';
+  font-size: 40px;
+  color: #2d4dc1; }
 
 #sobre-mi-txt {
   font-family: 'Poppins', sans-serif;
@@ -384,7 +388,12 @@ th {
 
 #proyectos-carrousel {
   height: 500px;
-  background-color: blueviolet; }
+  background-color: white; }
+
+.proyectos-text {
+  font-family: 'Comfortaa';
+  font-size: 40px;
+  color: #2d4dc1; }
 
 #servicios {
   height: 500px;
