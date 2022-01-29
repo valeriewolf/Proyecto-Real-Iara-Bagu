@@ -83,3 +83,9 @@ Agregue: Seccion "Buscas un diseñador?" y su boton para llevar al contacto (El 
 ..")
 Fix: background-image ahora se ve completa en resoluciones altas
 Comentarios: Nada por hoy, el boton se ve medio raro en resoluciones pequeñas, pero supongo que es por una cuestion de flexbox, despues lo arreglo bien, ahora realmente no se cual es el problema, no es que se ve mal, pero se puede ver mejor
+
+29/01/2022 - Juani
+
+Agregue: Seccion "Servicios" totalmente funcional y exactamente como la piden en figma
+Fix: En esa misma seccion de "Servicios" me queda un espacio en blanco a la derecha, debe ser por el flex, se arregla facil
+Comentarios: Ya estamos por terminar :)))))))))))))))))))))

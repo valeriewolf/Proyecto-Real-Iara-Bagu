@@ -131,6 +131,11 @@
       .close-menu:focus:not(:focus-visible) {
         outline: none;
       }
+
+    .parent{
+      display: block;
+      margin-top: 1vw;
+    }
     
   }
   
