@@ -430,7 +430,33 @@ th {
 
 #clientes-carrousel {
   height: 500px;
-  background-color: darkorchid; }
+  background-color: #4679a6; }
+
+.text-carrusel {
+  display: flex;
+  font-family: 'Comfortaa';
+  color: white;
+  font-size: 25px;
+  padding: 4%;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+.text-carrusel2 {
+  display: flex;
+  font-family: 'poppins', sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-left: 25%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+.text-final {
+  color: white;
+  font-size: 25px;
+  margin-left: 35%; }
 
 .contact-h2 {
   font-family: 'Comfortaa', cursive;
