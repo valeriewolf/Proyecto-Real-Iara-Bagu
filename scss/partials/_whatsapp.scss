@@ -4,7 +4,8 @@
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#278349;
+	background-image: url(/assets/Desktop_Whatsapp.png);
+	background-position: 40% 40%;
 	color:#FFF;
 	border-radius:50px;
 	box-shadow: 2px 2px 3px #999;
@@ -18,12 +19,12 @@
 
 .float2{
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:40px;
+	height:40px;
 	bottom:40px;
 	right:120px;
-	background-color:black;
-	color:#FFF;
+	background-image: url(/assets/Desktop_Inicio.png);
+	background-position: 50% 40%;
 	border-radius:50px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
