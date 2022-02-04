@@ -256,7 +256,8 @@ th {
   padding: 0;
   height: 50%;
   z-index: 2;
-  position: relative; }
+  position: relative;
+  justify-content: space-between; }
 
 .menu li {
   padding: 0 15px; }
@@ -568,8 +569,10 @@ button:focus, .submit-btn:focus {
   color: #eee; }
 
 #boton-wpp-contacto {
-  background-image: url(/assets/wpp-prueba.png);
-  background-position: 50%, 15%; }
+  background-image: url(/assets/Whatsapp.png);
+  background-position: 50%, 15%;
+  width: 200px;
+  height: 50px; }
 
 /*MEDIA QUERYS*/
 @media (max-width: 376px) {
@@ -621,6 +624,10 @@ button:focus, .submit-btn:focus {
   .wrapper > * {
     padding: 2em 2em; } }
 
+@media (max-width: 768px) {
+  #sobre-mi-flex {
+    flex-flow: column-reverse; } }
+
 @media (max-width: 769px) {
   #hide-mobile {
     display: none; } }
@@ -632,18 +639,20 @@ button:focus, .submit-btn:focus {
 @media (max-width: 881px) {
   /*MENU CON JS*/
   .menu {
-    background-color: skyblue;
+    background-color: #01315C;
+    color: white;
     flex-direction: column;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     align-items: center;
-    height: 85%;
+    height: 100%;
     overflow-y: auto;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s; }
+    transition: opacity 0.3s;
+    font-family: inherit; }
   .menu li {
     padding: 0; }
   .menu a {

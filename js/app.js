@@ -8,3 +8,7 @@ function toggleMenu() {
 
 openMenuBtn.addEventListener("click", toggleMenu);
 closeMenuBtn.addEventListener("click", toggleMenu);
+
+//Prueba de script para cerrar menu
+// $('.menu ul li a').on("click", function (e) {
+//  closeMenuBtn.click().removeClass("active"); });
