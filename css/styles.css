@@ -334,7 +334,7 @@ th {
   height: 60px;
   bottom: 40px;
   right: 40px;
-  background-image: url(/assets/Desktop_Whatsapp.png);
+  background-image: url(../assets/Desktop_Whatsapp.png);
   background-position: 40% 40%;
   color: #FFF;
   border-radius: 50px;
@@ -350,7 +350,7 @@ th {
   height: 40px;
   bottom: 40px;
   right: 120px;
-  background-image: url(/assets/Desktop_Inicio.png);
+  background-image: url(../assets/Desktop_Inicio.png);
   background-position: 50% 40%;
   border-radius: 50px;
   box-shadow: 2px 2px 3px #999;
@@ -358,17 +358,6 @@ th {
 
 .back-float {
   margin-top: 16px; }
-
-.text-diseñador {
-  display: flex;
-  height: 100%;
-  align-items: center;
-  font-family: 'poppins', sans-serif;
-  color: #EFF4F7;
-  font-size: 40px;
-  padding: 12%;
-  flex-direction: column;
-  flex-wrap: nowrap; }
 
 /*PAGES*/
 #container-mi-mi {
@@ -569,10 +558,21 @@ button:focus, .submit-btn:focus {
   color: #eee; }
 
 #boton-wpp-contacto {
-  background-image: url(/assets/Whatsapp.png);
+  background-image: url(../assets//Whatsapp.png);
   background-position: 50%, 15%;
   width: 200px;
   height: 50px; }
+
+.text-diseñador {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-family: 'poppins', sans-serif;
+  color: #EFF4F7;
+  font-size: 40px;
+  padding: 12%;
+  flex-direction: column;
+  flex-wrap: nowrap; }
 
 /*MEDIA QUERYS*/
 @media (max-width: 376px) {

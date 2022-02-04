@@ -1,22 +1,23 @@
 /*IMPORTS */
-@import "./globals";
-@import "./normalize-css";
+@import "../scss/globals";
+@import "../scss/normalize-css";
 
 /*PARTIALS*/
-@import "./partials/color-gradient" ;
-@import "./partials/navbar";
-@import "./partials/footer";
-@import "./partials/whatsapp";
-@import "./pages/buscas-diseñador";
+@import "../scss/partials/color-gradient" ;
+@import "../scss/partials/navbar";
+@import "../scss/partials/footer";
+@import "../scss/partials/whatsapp";
+
 
 
 /*PAGES*/
-@import "./pages/sobre-mi";
-@import "./pages/proyectos";
-@import "./pages/servicios";
-@import "./pages/clientes";
-@import "./pages/contacto";
+@import "../scss/pages/sobre-mi";
+@import "../scss/pages/proyectos";
+@import "../scss/pages/servicios";
+@import "../scss/pages/clientes";
+@import "../scss/pages/contacto";
+@import "../scss/pages/buscas-diseñador";
 
 
 /*MEDIA QUERYS*/
-@import "./mediaq/mediaq";
+@import "../scss/mediaq/mediaq";
