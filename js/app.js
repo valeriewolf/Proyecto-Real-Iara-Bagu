@@ -1,3 +1,4 @@
+//MENU
 const menu = document.querySelector(".menu");
 const openMenuBtn = document.querySelector(".open-menu");
 const closeMenuBtn = document.querySelector(".close-menu");
@@ -12,3 +13,16 @@ closeMenuBtn.addEventListener("click", toggleMenu);
 function  menuClose(){
   menu.classList.toggle
 }
+//MENU 
+
+//MODAL
+var elements = $('.modal-overlay, .modal');
+
+$('button').click(function(){
+    elements.addClass('active');
+});
+
+$('.close-modal').click(function(){
+    elements.removeClass('active');
+});
+//MODAL

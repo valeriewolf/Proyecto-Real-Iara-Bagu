@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="../assets/Ícono Iara Bagú.jpg" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
     <!-- Estilos AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>Iara Bagu</title>
@@ -35,6 +36,7 @@
         <li><a href="#proyectos-jump"  onclick="return toggleMenu()" >Proyectos</a></li>
         <li><a href="#servicios-jump"  onclick="return toggleMenu()" >Servicios</a></li>
         <li><a href="#contacto-jump"  onclick="return toggleMenu()" >Contacto</a></li>
+        <li></li>
       </ul>
     </nav>
 </header>
@@ -122,10 +124,50 @@ PRUEBA CARROUSEL-->
                 Me considero observadora y autodidacta. Me gusta mucho viajar, los deportes extremos y el montañismo. Desde chica que me apasionan diversas ciencias: Arqueología, Geología y Tecnología y creo que esas características fueron las que me llevaron a convertirme en Diseñadora de experiencias e interfaces.
                 <br> <br> <br> <br>
                 </p>
-     
+                <!--MODAL-->
+                <button>Conoceme más</button>
+                <!-- modal -->
+                <div class="modal-overlay">
+                  <div class="modal">
+                    
+                    <a class="close-modal">
+                      <svg viewBox="0 0 20 20">
+                        <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                      </svg>
+                    </a><!-- close modal -->
+                
+                    <div class="modal-content">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <h2 class="header-modal">Sobre mi</h2>
+                            <h3 class="titulo-modal">El mundo UX</h3>
+                            <p class="texto-modal">
+                          Para mi el UX  es como una enorme Geoda (utilizando un poco la Geología). Quizás por fuera su corteza no es atractiva, pero por dentro son hermosas, ¿no?.Mediante el UX  estudio las necesidades y los diversos contextos de los usuarios, centrándome en potenciar los valores que toda experiencia digital necesita: accesibilidad, adaptabilidad y consistencia. El UX llegó para incorporar investigación al proceso de diseño y asi enfocarnos en la interacción  humano- tecnología, es decir, un diseño estéticamente hermoso no siempre funciona, especialmente  si no pensamos en quién lo va a utilizar, su contexto, limitaciones y necesidades. Para los Uxer nuestros diseños están centrados en los usuarios y, a fin de cuentas, son los que harán crecer tu negocio. </p>
+                          </div>
+                          <div class="col">
+                            
+                          </div>
+                          <div class="col">
+                            <h3 class="titulo-modal">UI</h3>
+                            <p class="texto-modal">Cuando tenemos una estructura de diseño definida necesitamos darle vida. Construyo interfaces de  usuario fluidas, basados en la simplicidad, visibilidad  y retroalimentación de forma que el usuario pueda  comunicarse eficientemente con la tecnología. 
+                            </p>
+                            <h3 class="titulo-modal">Mision</h3>
+                            <p class="texto-modal">Mi trabajo es tomar tus ideas, metas y aspiraciones para convertirlas en un diseño maravillosamente elaborado que te represente a vos y a tu negocio, teniendo en cuenta los avances tecnológicos y necesidades de tus usuarios.
+                            </p>
+                            <a href="https://www.linkedin.com/in/juanquattrini/" target="blank"><i class="fab fa-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- content -->
+                    
+                  </div><!-- modal -->
+                </div><!-- overlay -->
+<!--MODAL-->
      </div>
           <div class="col-md-7" >
-         <img class="featurette-image img-responsive center-block" src="./assets/perfil.png" height="100%" width="100%" alt="">
+         <!--<img class="featurette-image img-responsive center-block" src="./assets/perfil.png" height="100%" width="100%" alt="">-->
+         <img src="./assets/perfil.png" class="img-fluid" alt="...">
           </div>
       </div>
   </div>
@@ -144,7 +186,8 @@ PRUEBA CARROUSEL-->
 <!-- ACA TERMINA SEGUNDO GRADIENT (Construyo interfaces de usuario fluidas, basados en la simplicidad)-->
 
 <!--ACA VA SECCION DE PROYECTOS (CARROUSEL, SUERTE CON ESTO)-->
-<section id="proyectos-jump"  data-aos="fade-up">
+<div id="proyectos-jump"></div>
+<section  data-aos="fade-up">
 <div id="proyectos-carrousel">
   <p class="proyectos-text">Proyectos</p>
   <div id="carouselExampleIndicators" class="carousel slide contenedor-carrusel" data-bs-ride="carousel">
@@ -394,6 +437,7 @@ PRUEBA CARROUSEL-->
 <script defer src="js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
 <script>
 AOS.init();
 </script>  
