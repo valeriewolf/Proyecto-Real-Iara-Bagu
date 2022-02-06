@@ -537,9 +537,8 @@ button {
   flex-wrap: nowrap;
   height: 400px;
   width: 800px;
-  background-color: #4679a6;
-  box-shadow: 0px 10px 10px -6px black;
-  border-radius: 2%; }
+  background-color: #fcfdfe;
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); }
 
 .imagen-card {
   display: flex;
