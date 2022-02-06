@@ -18,7 +18,7 @@ function  menuClose(){
 //MODAL
 var elements = $('.modal-overlay, .modal');
 
-$('button').click(function(){
+$('#myButtonId').click(function(){
     elements.addClass('active');
 });
 
@@ -26,3 +26,5 @@ $('.close-modal').click(function(){
     elements.removeClass('active');
 });
 //MODAL
+
+

@@ -56,6 +56,11 @@
     }
   }
   
+  @media (max-width: 640px){
+    #myButtonId{
+    display: none;
+    }
+  }
 
   @media (min-width: 700px) {
     .wrapper {
@@ -69,8 +74,10 @@
 
 @media (max-width:768px){
    #sobre-mi-flex{
-    
    flex-flow: column-reverse; 
+  }
+  .texto-modal{
+    font-size: small;
   }
 }
   

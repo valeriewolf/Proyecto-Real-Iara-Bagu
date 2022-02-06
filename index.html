@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="shortcut icon" href="../assets/Ícono Iara Bagú.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/Ícono Iara Bagú.jpg" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
     <!-- Estilos AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
@@ -26,11 +26,11 @@
         </div>
       </a>
       <button class="open-menu" aria-label="Abrir menú">
-        <img src="./assets/Ícono Iara Bagú.jpg" alt="abrir menú" height="50" width="50" alt="testest"/>
+        <img src="/assets/Ícono Iara Bagú.jpg" alt="abrir menú" height="50" width="50" alt="testest"/>
       </button>
       <ul class="menu">
         <button class="close-menu" aria-label="Cerrar menú">
-          <img src="./assets/Ícono Iara Bagú.jpg" height="50" width="50" alt="cerrar menu (roto)"/>
+          <img src="/assets/Ícono Iara Bagú.jpg" height="50" width="50" alt="cerrar menu (roto)"/>
         </button>
         <li><a href="#sobre-mi-jump"  onclick="return toggleMenu()">Sobre Mi</a></li>
         <li><a href="#proyectos-jump"  onclick="return toggleMenu()" >Proyectos</a></li>
@@ -125,7 +125,7 @@ PRUEBA CARROUSEL-->
                 <br> <br> <br> <br>
                 </p>
                 <!--MODAL-->
-                <button>Conoceme más</button>
+                <button id="myButtonId">Conoceme más</button>
                 <!-- modal -->
                 <div class="modal-overlay">
                   <div class="modal">
@@ -143,10 +143,11 @@ PRUEBA CARROUSEL-->
                             <h2 class="header-modal">Sobre mi</h2>
                             <h3 class="titulo-modal">El mundo UX</h3>
                             <p class="texto-modal">
-                          Para mi el UX  es como una enorme Geoda (utilizando un poco la Geología). Quizás por fuera su corteza no es atractiva, pero por dentro son hermosas, ¿no?.Mediante el UX  estudio las necesidades y los diversos contextos de los usuarios, centrándome en potenciar los valores que toda experiencia digital necesita: accesibilidad, adaptabilidad y consistencia. El UX llegó para incorporar investigación al proceso de diseño y asi enfocarnos en la interacción  humano- tecnología, es decir, un diseño estéticamente hermoso no siempre funciona, especialmente  si no pensamos en quién lo va a utilizar, su contexto, limitaciones y necesidades. Para los Uxer nuestros diseños están centrados en los usuarios y, a fin de cuentas, son los que harán crecer tu negocio. </p>
+                          Para mi el UX  es como una enorme Geoda. Quizás por fuera su corteza no es atractiva, pero por dentro son hermosas, ¿no?. Mediante el UX estudio las necesidades y los diversos contextos de los usuarios, centrándome en potenciar los valores que toda experiencia digital necesita: accesibilidad, adaptabilidad y consistencia. <!----> </p>
                           </div>
                           <div class="col">
-                            
+                            <h3 class="titulo-modal">Un poco mas de UX</h3>
+                        <p class="texto-modal">El UX llegó para incorporar investigación al proceso de diseño y asi enfocarnos en la interacción  humano- tecnología, es decir, un diseño estéticamente hermoso no siempre funciona, especialmente si no pensamos en quién lo va a utilizar, su contexto, limitaciones y necesidades. Para los Uxer nuestros diseños están centrados en los usuarios y, a fin de cuentas, son los que harán crecer tu negocio.</p>
                           </div>
                           <div class="col">
                             <h3 class="titulo-modal">UI</h3>
@@ -167,7 +168,7 @@ PRUEBA CARROUSEL-->
      </div>
           <div class="col-md-7" >
          <!--<img class="featurette-image img-responsive center-block" src="./assets/perfil.png" height="100%" width="100%" alt="">-->
-         <img src="./assets/perfil.png" class="img-fluid" alt="...">
+         <img src="/assets/perfil.png" class="img-fluid" alt="...">
           </div>
       </div>
   </div>
