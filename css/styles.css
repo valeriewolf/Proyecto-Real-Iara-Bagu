@@ -616,11 +616,11 @@ button {
   color: #4679A6; }
 
 .container-form {
-  background-image: url(/assets/imagen-degrade.jpg);
+  background-image: url(./assets/imagen-degrade.jpg);
   background-size: cover; }
 
 div.form {
-  background-image: url(/assets/imagen-degrade.jpg);
+  background-image: url(./assets/imagen-degrade.jpg);
   width: 100%;
   background-size: cover; }
 
@@ -705,7 +705,7 @@ button:focus, .submit-btn:focus {
   color: #eee; }
 
 #boton-wpp-contacto {
-  background-image: url(/assets/whatsapp.png);
+  background-image: url(./assets/whatsapp.png);
   background-position: 50%, 15%;
   width: 200px;
   height: 50px; }
