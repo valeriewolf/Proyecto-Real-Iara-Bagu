@@ -521,6 +521,21 @@ button {
   font-size: 40px;
   color: #2d4dc1; }
 
+.carousel-contenedor {
+  position: relative; }
+
+.carousel-anterior,
+.carousel-siguiente {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none; }
+
 #servicios {
   background-color: #FFFFFF; }
 

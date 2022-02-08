@@ -28,3 +28,17 @@ $('.close-modal').click(function(){
 //MODAL
 
 
+//Carousel
+
+window.addEventListener('load', function(){
+  new Glider(document.querySelector('.carousel-lista'), {
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    dots: '.carousel-indicadores',
+    arrows: {
+      prev: '.carousel-anterior',
+      next: '.carousel-siguiente'
+    }
+  } );
+
+});
