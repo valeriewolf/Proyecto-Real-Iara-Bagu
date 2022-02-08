@@ -29,7 +29,7 @@
 }
 
 .contenido-principal__resumen {
-	font-family: 'Open Sans', sans-serif;
+	font-family: inherit;
 	line-height: 30px;
 	color: #CFCFCF;
 }
@@ -53,6 +53,7 @@
 	background: none;
 	color: #fff;
 	opacity: 20%;
+    display: none;
 }
 
 .carousel__anterior:hover,
@@ -80,17 +81,17 @@
 	display: block;
 	width: 30px;
 	height: 4px;
-	background: #fff;
+	background: blue;
 	opacity: .2;
 	border-radius: 0;
 }
 
 .carousel__indicadores .glider-dot:hover {
-	opacity: .5;
+	opacity: 20;
 }
 
 .carousel__indicadores .glider-dot.active {
-	opacity: 1;
+	opacity: 20;
 }
 
 @media screen and (max-width: 800px) {
@@ -103,7 +104,7 @@
 	}
 
 	.contenido-principal > * {
-		width: 100%;
+		width: 90%;
 	}
 }
 
