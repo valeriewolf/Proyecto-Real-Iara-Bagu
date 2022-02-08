@@ -516,36 +516,10 @@ button {
   font-weight: 600;
   font-size: larger; }
 
-#proyectos-carrousel {
-  height: 500px;
-  background-color: white; }
-
 .proyectos-text {
   font-family: 'Comfortaa';
   font-size: 40px;
   color: #2d4dc1; }
-
-.contenedor-carrusel {
-  display: flex;
-  align-items: center;
-  margin-left: 20%; }
-
-.card-carrusel {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  height: 400px;
-  width: 800px;
-  background-color: #fcfdfe;
-  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); }
-
-.imagen-card {
-  display: flex;
-  padding: 3%;
-  width: 300px;
-  height: 300px;
-  border-radius: 10%; }
 
 #servicios {
   background-color: #FFFFFF; }
