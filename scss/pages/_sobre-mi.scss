@@ -9,7 +9,7 @@
     font-family: 'Comfortaa';
     font-size: 40px;
     color: rgba(45, 77, 193, 1);
-   
+   text-align: justify;
 }
 
 #sobre-mi-txt{
@@ -21,3 +21,13 @@
     
 }
 
+.imagen-sobre-mi{
+    width:400px;
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.text-sobre{
+    text-align: justify;
+}

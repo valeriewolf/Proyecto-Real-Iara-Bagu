@@ -598,13 +598,23 @@ button {
 .header-sobre-mi {
   font-family: 'Comfortaa';
   font-size: 40px;
-  color: #2d4dc1; }
+  color: #2d4dc1;
+  text-align: justify; }
 
 #sobre-mi-txt {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   font-weight: 600;
   font-size: larger; }
+
+.imagen-sobre-mi {
+  width: 400px;
+  height: 500px;
+  margin-left: 60px;
+  margin-top: 50px; }
+
+.text-sobre {
+  text-align: justify; }
 
 .proyectos-text {
   font-family: 'Comfortaa';
