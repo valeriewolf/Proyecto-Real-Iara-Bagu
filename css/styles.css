@@ -224,16 +224,20 @@ th {
   align-items: center;
   background-size: cover; }
 
+#text-gradient {
+  margin-top: 20px; }
+
 /*Navbar*/
-.topheader {
-  box-shadow: 0 4px 5px;
+header {
+  position: fixed;
+  top: 0;
+  z-index: 11;
   width: 100%; }
 
 .topnav {
   background-color: white;
   display: flex;
   padding: 10px;
-  max-width: 980px;
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-between;
@@ -331,8 +335,8 @@ th {
 
 .float {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 69px;
+  height: 69px;
   bottom: 40px;
   right: 40px;
   background-image: url(../Assets/desktop_whatsapp.png);
@@ -455,8 +459,8 @@ button {
     transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
     transition-delay: 0.3s;
     width: 100%;
-    padding-top: 1vw;
-    padding-bottom: 1vw; }
+    padding-top: 2vw;
+    padding-bottom: 2vw; }
   .modal.active {
     visibility: visible;
     opacity: 1;
@@ -596,9 +600,9 @@ button {
   margin-left: 1vw; }
 
 .header-sobre-mi {
-  font-family: 'Comfortaa';
-  font-size: 40px;
-  color: #2d4dc1;
+  font-family: 'Comfortaa', cursive;
+  color: #4679A6;
+  font-size: 30px;
   text-align: justify;
   margin-bottom: 10px;
   margin-top: 40px; }
@@ -620,9 +624,9 @@ button {
   margin-left: 140px; }
 
 .proyectos-text {
-  font-family: 'Comfortaa';
-  font-size: 40px;
-  color: #2d4dc1; }
+  font-family: 'Comfortaa', cursive;
+  color: #4679A6;
+  font-size: 40px; }
 
 .carousel-contenedor {
   position: relative; }
@@ -648,9 +652,8 @@ button {
   background-color: #FFFFFF; }
 
 #h-servicios {
-  font-family: 'Comfortaa';
-  font-size: 40px;
-  color: #2d4dc1; }
+  font-family: 'Comfortaa', cursive;
+  color: #4679A6; }
 
 .servicios-heading {
   color: #014A8A; }
@@ -828,10 +831,30 @@ button:focus, .submit-btn:focus {
   flex-direction: column;
   flex-wrap: nowrap; }
 
+#boton-diseñador {
+  background-image: url(../../assets/desktop_escribime.png);
+  background-position: 50%, 15%;
+  width: 200px;
+  height: 50px; }
+
+#boton-empezamos {
+  background-image: url(../../assets/empezamos.png);
+  background-position: 50%, 15%;
+  width: 200px;
+  height: 50px; }
+
 /*MEDIA QUERYS*/
 @media (max-width: 376px) {
   /*MENU CON JS*/
   /* Menu */
+  .topnav {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
   .topheader {
     margin-bottom: 3vw; }
   .menu {
@@ -868,6 +891,11 @@ button:focus, .submit-btn:focus {
     outline: none; } }
 
 @media (min-width: 600px) {
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    width: 100%; }
   .contain {
     padding: 0; } }
 
@@ -898,6 +926,14 @@ button:focus, .submit-btn:focus {
 
 @media (max-width: 881px) {
   /*MENU CON JS*/
+  .topnav {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
   .menu {
     background-color: #01315C;
     color: white;
@@ -912,7 +948,9 @@ button:focus, .submit-btn:focus {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s;
-    font-family: inherit; }
+    font-family: inherit;
+    flex-wrap: wrap;
+    align-content: center; }
   .menu li {
     padding: 0; }
   .menu a {
@@ -962,13 +1000,14 @@ button:focus, .submit-btn:focus {
 
 /* EL PROBLEMA DE LA NAVBAR ESTA ACA*/
 @media (min-width: 1152px) {
+  header {
+    width: 100%; }
   .topnav {
     display: flex;
     padding: 10px;
-    max-width: 980px;
     margin: 0 auto;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; }
   .menu {
     display: flex;

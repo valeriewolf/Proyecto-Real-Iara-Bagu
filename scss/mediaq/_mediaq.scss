@@ -1,5 +1,15 @@
 @media (max-width: 376px) { /*MENU CON JS*/
   /* Menu */
+  .topnav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
   .topheader{
     margin-bottom: 3vw;
   }
@@ -51,6 +61,14 @@
 }
 
 @media (min-width: 600px) {
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+  
+    
+  }
   .contain {
     padding: 0;
   }
@@ -97,6 +115,18 @@
   }
 
 @media (max-width: 881px){ /*MENU CON JS*/
+
+  .topnav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
   .menu {
       background-color: #01315C;
       color: white;
@@ -112,6 +142,8 @@
       pointer-events: none;
       transition: opacity 0.3s;
       font-family: inherit;
+      flex-wrap: wrap;
+      align-content: center;
       
     }
   
@@ -182,17 +214,20 @@
     padding: 12%; 
     flex-wrap: wrap;
   }
+  
    }
 
 /* EL PROBLEMA DE LA NAVBAR ESTA ACA*/
 @media (min-width: 1152px){
+  header{
+    width: 100%;
+  }
 .topnav{
   display: flex;
   padding: 10px;
-  max-width: 980px;
   margin: 0 auto;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .menu{
