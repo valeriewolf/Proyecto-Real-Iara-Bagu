@@ -604,6 +604,9 @@ button {
   text-align: justify;
   font-size: larger; }
 
+.conoceme {
+  float: right; }
+
 .imagen-sobre-mi {
   width: 500px;
   height: 550px;
@@ -1007,3 +1010,46 @@ button:focus, .submit-btn:focus {
     list-style: none;
     margin: 0;
     padding: 0; } }
+
+/*MARGENES*/
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+  .contenedor-sobre-mi {
+    margin-left: 20px; }
+  .imagen-sobre-mi {
+    width: 400px;
+    height: 450px;
+    margin-left: 70px;
+    margin-top: 40px; }
+  .contenedor-proyectos {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px; }
+  .contenedor-contacto {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 100px; }
+  .contenedor-servicios {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px; } }
+
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  .contenedor-sobre-mi {
+    margin-left: 30px; }
+  .imagen-sobre-mi {
+    width: 400px;
+    height: 450px;
+    margin-left: 40px;
+    margin-top: 100px; }
+  .contenedor-proyectos {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px; }
+  .contenedor-contacto {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px; }
+  .contenedor-servicios {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 100px; } }
