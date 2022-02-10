@@ -50,7 +50,8 @@ html {
   /* 2 */ }
 
 body {
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden !important; }
 
 article,
 aside,
@@ -429,7 +430,6 @@ button {
   visibility: hidden;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   backface-visibility: hidden;
-  transform: scale(1.2);
   transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1); }
   .modal .close-modal {
     position: absolute;
@@ -500,7 +500,6 @@ button {
 
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
 .contenido-principal {
-  margin-bottom: 50px;
   display: flex;
   align-items: center; }
 
@@ -556,7 +555,8 @@ button {
   overflow: hidden; }
 
 .carousel__elemento {
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 .carousel__indicadores .glider-dot {
   display: block;
@@ -640,7 +640,9 @@ button {
   margin-bottom: 100px; }
 
 #servicios {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  padding-left: 13vw;
+  margin-top: 5vw; }
 
 #h-servicios {
   font-family: 'Comfortaa', cursive;
@@ -654,12 +656,11 @@ button {
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: repeat(2, 0.5fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  align-items: center;
-  padding-left: 5vw; }
+  align-items: center; }
 
 .div-1 {
   grid-area: 1 / 1 / 3 / 3; }
@@ -679,7 +680,8 @@ button {
   margin-bottom: 100px; }
 
 #clientes-carrousel {
-  background-color: #4679a6; }
+  background-color: #4679a6;
+  height: 450px; }
 
 .text-carrusel {
   display: flex;
@@ -705,7 +707,7 @@ button {
 .text-final {
   color: white;
   font-size: 25px;
-  margin-left: 35%; }
+  margin-left: 41%; }
 
 .contact-h2 {
   font-family: 'Comfortaa', cursive;
