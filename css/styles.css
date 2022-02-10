@@ -560,11 +560,11 @@ button {
 
 .carousel__indicadores .glider-dot {
   display: block;
-  width: 30px;
-  height: 4px;
+  width: 40px;
+  height: 10px;
   background: blue;
   opacity: .2;
-  border-radius: 0; }
+  border-radius: 10; }
 
 .carousel__indicadores .glider-dot:hover {
   opacity: 20; }
@@ -620,7 +620,7 @@ button {
 .proyectos-text {
   font-family: 'Comfortaa', cursive;
   color: #4679A6;
-  font-size: 40px; }
+  font-size: 30px; }
 
 .carousel-contenedor {
   position: relative; }
@@ -714,7 +714,8 @@ button {
 
 .contact-h2 {
   font-family: 'Comfortaa', cursive;
-  color: #4679A6; }
+  color: #4679A6;
+  font-size: 30px; }
 
 .container-form {
   background-image: url(../Assets/imagen-degrade.jpg);
@@ -752,7 +753,7 @@ textarea {
   border-left: none;
   border-right: none;
   width: 100%;
-  font-size: 20px;
+  font-size: 1rem;
   color: #fff; }
 
 .wrapper > * {
