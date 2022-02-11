@@ -74,10 +74,24 @@
   }
 }
 
+@media (max-width: 641px){
+  .conoceme-hidden{
+    visibility: visible;
+  } 
+   }
+   @media (min-width: 641px){
+    .conoceme-hidden{
+     visibility: hidden;
+  
+    }
+  }
 @media (max-width: 640px){
   #myButtonId{
   display: none;
   }
+ .modal-overlay{
+   display: none;
+ }
 }
 
 @media (min-width: 700px) {
@@ -236,6 +250,8 @@
   padding: 0;
 }
 }
+
+
 
 /*MARGENES*/
 

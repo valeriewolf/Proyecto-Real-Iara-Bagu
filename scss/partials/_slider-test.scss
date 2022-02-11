@@ -82,17 +82,23 @@
 	display: block;
 	width: 40px;
 	height: 10px;
-	background: blue;
+	background: #04bfbf;
 	opacity: .2;
 	border-radius: 10;
 }
 
 .carousel__indicadores .glider-dot:hover {
 	opacity: 20;
+	color: #0484CF;
 }
 
 .carousel__indicadores .glider-dot.active {
 	opacity: 20;
+	color: #abeaea;
+}
+
+button.glider-dot{
+	display: none;
 }
 
 @media screen and (max-width: 800px) {
