@@ -98,8 +98,8 @@
   
   button, .submit-btn {
     font-family: 'Comfortaa', cursive;
-    background: white;
-    border: 1px solid white;
+    background: #e1e6e9;
+    border: 2px solid #3ECCCD;
     color: #014A8A;
     border-radius: 15px;
     padding: 5px 20px;
@@ -107,7 +107,7 @@
   }
   button:hover, .submit-btn:hover,
   button:focus , .submit-btn:focus{
-    background: #0f2941;
+    background: #4679A6;
     outline: 0;
     color: #eee;
   }

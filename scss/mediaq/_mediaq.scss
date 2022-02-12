@@ -66,12 +66,17 @@
     top: 0;
     z-index: 11;
     width: 100%;
-  
     
   }
   .contain {
     padding: 0;
   }
+  
+/*POR QUE SE ROMPE ESTO*/
+ /*POR  #text-gradient{
+    height: 500px;
+  }
+  /*POR QUE SE ROMPE ESTO*/
 }
 
 @media (max-width: 641px){
@@ -198,6 +203,10 @@
     display: block;
     margin-top: 1vw;
   }
+  .flexbox-container{
+    flex-direction: column;
+    align-items: center;
+  }
   
 }
 
@@ -228,6 +237,12 @@
     flex-wrap: wrap;
   }
   
+   }
+
+   @media (max-width: 979px) {
+     .contendor-sobre-mi{
+      /* height: 100vw; */
+     }
    }
 
 /* EL PROBLEMA DE LA NAVBAR ESTA ACA*/
