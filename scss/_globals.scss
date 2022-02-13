@@ -1,53 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;300&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap";
 
-/*Resets*/
 html {
 	min-height: 100%;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
-
 body {
 	height: 100%;
 	font-family: 'poppins', sans-serif;
 }
-
-/*Styles*/
-
-a{
+a {
 	text-decoration: none;
 }
-
-
-.text{
-    display: flex;
+.text {
+	display: flex;
 	font-family: 'poppins', sans-serif;
 	color: black;
 	font-size: 25px;
-    padding: 12%;
-    height: 100%;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+	padding: 12%;
+	height: 100%;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
 }
-
-.text-white{
-	color: rgba(245, 239, 239, 1) ;
+.text-white {
+	color: rgba(245, 239, 239, 1);
 }
-
-.text-blue1{
+.text-blue1 {
 	color: rgba(0, 37, 69, 1);
 }
-
-.text-blue2{
+.text-blue2 {
 	color: rgba(1, 49, 92, 1);
 }
-
-.semi-bold{
+.semi-bold {
 	font-weight: 600;
 }
-
-.boton1{
-font-size: 15px;
+.boton1 {
+	font-size: 15px;
 }

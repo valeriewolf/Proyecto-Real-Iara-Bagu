@@ -1,34 +1,35 @@
-
-.proyectos-text{
-    font-family: 'Comfortaa', cursive;
-    color: #4679A6;
-    font-size: 30px;
-    
+.proyectos-text {
+	font-family: 'Comfortaa', cursive;
+	color: #4679A6;
+	font-size: 30px;
 }
-
-.carousel-contenedor{
-    position: relative;
-
+.carousel-contenedor {
+	position: relative;
 }
+.carousel-anterior {
 
-.carousel-anterior,
-.carousel-siguiente{
-    // position: absolute; cuando coloco para funcionar esta propiedad los botones no quedan bien, fijate si le encontras la vuelta
-    display: block;
-    width: 30px;
-    height: 30px;
-    border: none;
-    top: calc(50% - 35px);
-    cursor: pointer;
-    line-height: 30px;
-    text-align: center;
-    background: none;
-    }
-
-    .contenedor-proyectos{
-        margin-left: 140px ;
-        margin-top: 80px ;
-        margin-bottom: 100px ;
-        height: 40vw;
-    }
-    
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+}
+.carousel-siguiente {
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+}
+.contenedor-proyectos {
+	margin-left: 140px;
+	margin-top: 80px;
+	margin-bottom: 100px;
+	height: 40vw;
+}

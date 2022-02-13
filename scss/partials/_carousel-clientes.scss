@@ -1,9 +1,9 @@
-.carousel-item{
-    $carousel-transition-duration:  0.1s;
+.carousel-item {
+	$carousel-transition-duration: 0.1s;
 }
-
-
-.carousel-control-prev,
+.carousel-control-prev {
+	display: none;
+}
 .carousel-control-next {
-    display: none;
+	display: none;
 }

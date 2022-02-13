@@ -1,35 +1,31 @@
-.float{
-	position:fixed;
-	width:69px;
-	height:69px;
-	bottom:40px;
-	right:40px;
+.float {
+	position: fixed;
+	width: 69px;
+	height: 69px;
+	bottom: 40px;
+	right: 40px;
 	background-image: url(../Assets/desktop_whatsapp.png);
 	background-position: 40% 40%;
-	color:#FFF;
-	border-radius:50px;
+	color: #FFF;
+	border-radius: 50px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+	z-index: 100;
 }
-
-.wpp-float{
-	margin-top:16px;
+.wpp-float {
+	margin-top: 16px;
 }
-
-
-.float2{
-	position:fixed;
-	width:40px;
-	height:40px;
-	bottom:40px;
-	right:120px;
+.float2 {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	bottom: 40px;
+	right: 120px;
 	background-image: url(../Assets/desktop_inicio.png);
 	background-position: 50% 40%;
-	border-radius:50px;
+	border-radius: 50px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+	z-index: 100;
 }
-
-.back-float{
-	margin-top:16px;
+.back-float {
+	margin-top: 16px;
 }
