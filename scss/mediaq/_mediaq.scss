@@ -271,10 +271,12 @@
     margin-left: 20px ;
 }
 .imagen-sobre-mi{
-  width:400px;
-  height: 450px;
-  margin-left: 70px;
-  margin-top: 40px;
+  width:350px;
+  height: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 .contenedor-proyectos{
   margin-left: 20px ;
@@ -309,7 +311,9 @@ text-align: center;
   .imagen-sobre-mi{
     width:400px;
     height: 450px;
-    margin-left: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
   }
   .contenedor-proyectos{
