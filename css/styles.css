@@ -1351,7 +1351,11 @@ header {
     font-size: 20px;
     padding: 20%;
     height: 80%;
-    text-align: center; } }
+    text-align: center; }
+  .text-diseñador {
+    font-size: 40px; }
+  .text-diseñador {
+    font-size: 20px; } }
 
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
   .contenedor-sobre-mi {
