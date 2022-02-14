@@ -1031,6 +1031,11 @@ button:focus, .submit-btn:focus {
   width: 200px;
   height: 50px; }
 
+.boton-escribime {
+  border-radius: 20px;
+  background-color: #014a8a;
+  color: white; }
+
 header {
   position: fixed;
   top: 0;
