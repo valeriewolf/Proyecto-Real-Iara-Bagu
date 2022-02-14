@@ -40,6 +40,11 @@ a {
 .boton1 {
   font-size: 15px; }
 
+.boton-empezamos {
+  border-radius: 20px;
+  background-color: #014a8a;
+  color: white; }
+
 /*NORMALIZE CSS - RESET CSS, SI ALGO FALLA BORRAR COSAS DE ACA*/
 html {
   -ms-text-size-adjust: 100%;
