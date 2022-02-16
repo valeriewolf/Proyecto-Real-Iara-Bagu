@@ -354,7 +354,8 @@ a {
   display: flex;
   justify-content: center;
   color: black;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px; }
 
 .footer-section {
   background: #4679A6;
