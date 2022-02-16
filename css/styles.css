@@ -45,7 +45,7 @@ a {
   height: 66px;
   border-radius: 30px;
   font-size: 22px;
-  background-color: #014a8a;
+  background-color: rgba(1, 73, 137, 0.7) !important;
   color: white; }
 
 /*NORMALIZE CSS - RESET CSS, SI ALGO FALLA BORRAR COSAS DE ACA*/
@@ -741,7 +741,20 @@ button.glider-dot {
   margin-left: 140px;
   margin-top: 80px;
   margin-bottom: 100px;
-  height: 40vw; }
+  height: 70w; }
+
+.card-proyectos {
+  margin-bottom: 10px; }
+
+.columna-1-p {
+  width: 50%;
+  text-align: justify;
+  margin-right: 20px; }
+
+.columna-2-p {
+  width: 50%;
+  text-align: justify;
+  margin-right: 40px; }
 
 #servicios {
   background-color: #FFFFFF;
@@ -911,11 +924,11 @@ button.glider-dot {
   font-size: 30px; }
 
 .container-form {
-  background-image: url(../Assets/imagen-degrade.jpg);
+  background: #FFFFFF;
   background-size: cover; }
 
 div.form {
-  background-image: url(../Assets/imagen-degrade.jpg);
+  background: #FFFFFF;
   width: 100%;
   background-size: cover; }
 
