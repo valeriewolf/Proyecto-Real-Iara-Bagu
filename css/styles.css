@@ -59,8 +59,7 @@ html {
     cursor: default; }
 
 body {
-  margin: 0;
-  overflow-x: hidden !important; }
+  margin: 0; }
 
 article {
   display: block; }
