@@ -303,6 +303,12 @@ th {
   align-items: center;
   background-size: cover; }
 
+.gradient-div4 {
+  height: 55vh;
+  background-image: url(../Assets/imagen-degrade.jpg);
+  align-items: center;
+  background-size: cover; }
+
 /*Navbar*/
 /* Logo */
 /* Menu */
